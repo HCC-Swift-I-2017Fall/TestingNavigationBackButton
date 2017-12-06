@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--First-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TestingNavigationBackButton" customModuleProvider="target" sceneMemberID="viewController">
@@ -30,13 +30,13 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="SZC-BA-0Zw"/>
+                    <navigationItem key="navigationItem" title="First" id="SZC-BA-0Zw"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="815.20000000000005" y="132.68365817091455"/>
         </scene>
-        <!--Title-->
+        <!--Middle-->
         <scene sceneID="PcD-Fw-heg">
             <objects>
                 <viewController id="yiJ-c4-gIE" customClass="SecondViewController" customModule="TestingNavigationBackButton" customModuleProvider="target" sceneMemberID="viewController">
@@ -49,7 +49,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button2"/>
                                 <connections>
-                                    <segue destination="7b9-WS-Bzl" kind="show" action="showDetailViewController:sender:" id="YXo-gR-p6H"/>
+                                    <segue destination="7b9-WS-Bzl" kind="show" id="YXo-gR-p6H"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2CW-ow-dmx">
@@ -64,7 +64,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="I69-vs-aQe"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="Z7x-A9-xQi"/>
+                    <navigationItem key="navigationItem" title="Middle" id="Z7x-A9-xQi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EyR-jI-Wqp" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="Q8J-EC-diO" userLabel="Exit" sceneMemberID="exit"/>
